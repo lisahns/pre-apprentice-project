@@ -1,0 +1,25 @@
+{
+  "name": "pre-apprentice-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "node_modules/.bin/prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync --server --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisahns/pre-apprentice-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisahns/pre-apprentice-project/issues"
+  },
+  "homepage": "https://github.com/lisahns/pre-apprentice-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "prettier": "^2.7.1"
+  }
+}
